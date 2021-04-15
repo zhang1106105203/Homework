@@ -1,0 +1,590 @@
+﻿<aqx_p_02>
+	<data>
+		<county>宜蘭縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>冬山</site>
+		<pm25>12</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>板橋</site>
+		<pm25>15</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>新莊</site>
+		<pm25>21</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>菜寮</site>
+		<pm25>13</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>林口</site>
+		<pm25>20</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>淡水</site>
+		<pm25>14</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>士林</site>
+		<pm25>15</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>中山</site>
+		<pm25>14</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>萬華</site>
+		<pm25>14</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>古亭</site>
+		<pm25>17</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>松山</site>
+		<pm25>17</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>屏東縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>恆春</site>
+		<pm25>7</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺東縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>臺東</site>
+		<pm25>21</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>花蓮縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>花蓮</site>
+		<pm25>23</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>桃園市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>龍潭</site>
+		<pm25>18</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新竹縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>湖口</site>
+		<pm25>20</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新竹縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>竹東</site>
+		<pm25>15</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>宜蘭縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>宜蘭</site>
+		<pm25>17</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>土城</site>
+		<pm25>18</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>前鎮</site>
+		<pm25>9</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>小港</site>
+		<pm25>6</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>屏東縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>屏東</site>
+		<pm25>14</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>陽明</site>
+		<pm25>7</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>三重</site>
+		<pm25>21</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>桃園市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>中壢</site>
+		<pm25>18</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>南投縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>竹山</site>
+		<pm25>16</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>永和</site>
+		<pm25>13</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>萬里</site>
+		<pm25>24</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>新店</site>
+		<pm25>18</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>林園</site>
+		<pm25>8</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>楠梓</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>左營</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>前金</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>復興</site>
+		<pm25>10</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>南投縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>埔里</site>
+		<pm25>31</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>連江縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>馬祖</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>金門縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>金門</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>澎湖縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>馬公</site>
+		<pm25>7</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>彰化縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>大城</site>
+		<pm25>17</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新竹市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>新竹</site>
+		<pm25>22</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>苗栗縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>頭份</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>苗栗縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>苗栗</site>
+		<pm25>10</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>苗栗縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>三義</site>
+		<pm25>12</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>嘉義縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>新港</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>嘉義縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>朴子</site>
+		<pm25>10</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>雲林縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>臺西</site>
+		<pm25>10</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>嘉義市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>嘉義</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺南市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>新營</site>
+		<pm25>10</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺南市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>善化</site>
+		<pm25>10</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺南市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>安南</site>
+		<pm25>9</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺南市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>臺南</site>
+		<pm25>12</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺中市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>豐原</site>
+		<pm25>19</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺中市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>沙鹿</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺中市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>忠明</site>
+		<pm25>14</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺中市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>西屯</site>
+		<pm25>20</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>彰化縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>彰化</site>
+		<pm25>13</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>彰化縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>線西</site>
+		<pm25>15</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>雲林縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>崙背</site>
+		<pm25>14</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>美濃</site>
+		<pm25>12</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>橋頭</site>
+		<pm25>7</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>仁武</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>鳳山</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>高雄市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>大寮</site>
+		<pm25>7</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺東縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>關山</site>
+		<pm25>22</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>雲林縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>麥寮</site>
+		<pm25>9</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>富貴角</site>
+		<pm25>22</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>桃園市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>桃園</site>
+		<pm25>21</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>桃園市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>大園</site>
+		<pm25>36</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>桃園市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>觀音</site>
+		<pm25>37</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>大同</site>
+		<pm25>23</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>桃園市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>平鎮</site>
+		<pm25>19</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>基隆市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>基隆</site>
+		<pm25>13</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>汐止</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>彰化縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>二林</site>
+		<pm25>11</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>南投縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>南投</site>
+		<pm25>16</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>雲林縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>斗六</site>
+		<pm25>13</pm25>
+		<datacreationdate>2021-03-30 22:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺中市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>大里</site>
+		<pm25>49</pm25>
+		<datacreationdate>2021-03-27 09:00</datacreationdate>
+	</data>
+	<data>
+		<county>屏東縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>潮州</site>
+		<pm25>30</pm25>
+		<datacreationdate>2021-03-26 18:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺南市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>臺南(麻豆)</site>
+		<pm25>19</pm25>
+		<datacreationdate>2020-04-21 03:00</datacreationdate>
+	</data>
+	<data>
+		<county>臺南市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>臺南(北門)</site>
+		<pm25>22</pm25>
+		<datacreationdate>2020-04-21 03:00</datacreationdate>
+	</data>
+	<data>
+		<county>新北市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>新北(樹林)</site>
+		<pm25>12</pm25>
+		<datacreationdate>2020-04-21 03:00</datacreationdate>
+	</data>
+	<data>
+		<county>屏東縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>屏東(琉球)</site>
+		<pm25>16</pm25>
+		<datacreationdate>2020-04-21 03:00</datacreationdate>
+	</data>
+	<data>
+		<county>彰化縣</county>
+		<itemunit>μg/m3</itemunit>
+		<site>彰化(大城)</site>
+		<pm25>17</pm25>
+		<datacreationdate>2020-04-21 03:00</datacreationdate>
+	</data>
+	<data>
+		<county>桃園市</county>
+		<itemunit>μg/m3</itemunit>
+		<site>桃園(觀音工業區)</site>
+		<pm25>35</pm25>
+		<datacreationdate>2020-04-21 03:00</datacreationdate>
+	</data>
+</aqx_p_02>
