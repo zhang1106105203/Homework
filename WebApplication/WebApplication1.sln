@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication.csproj", "{53A56D78-ED7B-4F76-827A-87DC563F4679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "share", "..\share\share.csproj", "{CD6DEF7A-9E13-4388-82CC-028C5E5BE31B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{37B2C60E-18CB-4AAB-8C9C-5EC04C53CBCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A56D78-ED7B-4F76-827A-87DC563F4679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A56D78-ED7B-4F76-827A-87DC563F4679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A56D78-ED7B-4F76-827A-87DC563F4679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A56D78-ED7B-4F76-827A-87DC563F4679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6DEF7A-9E13-4388-82CC-028C5E5BE31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6DEF7A-9E13-4388-82CC-028C5E5BE31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6DEF7A-9E13-4388-82CC-028C5E5BE31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6DEF7A-9E13-4388-82CC-028C5E5BE31B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B2C60E-18CB-4AAB-8C9C-5EC04C53CBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B2C60E-18CB-4AAB-8C9C-5EC04C53CBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B2C60E-18CB-4AAB-8C9C-5EC04C53CBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B2C60E-18CB-4AAB-8C9C-5EC04C53CBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB31DF58-3011-49D7-8FB8-255EE35E93BE}
+	EndGlobalSection
+EndGlobal

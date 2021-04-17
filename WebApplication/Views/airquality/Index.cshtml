@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ConsoleApp1.airquality>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<h1>airquality list</h1>
+<table>
+    <thead>
+        <tr>
+            <th>SiteName</th>
+            <th>County</th>
+            <th>AQI</th>
+            <th>STATUS</th>
+            <th>POLLUTANT</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+        <tr>
+            <td>@item.County</td>
+            <td>@item.SiteName</td>
+            <td>@item.AQI</td>
+            <td>@item.Status</td>
+            <td>@item.Pollutant</td>
+
+        </tr>
+            }
+        }
+
+
+    </tbody>
+    <tfoot></tfoot>
+
+</table>
+@{
+}
