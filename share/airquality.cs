@@ -9,6 +9,7 @@ namespace ConsoleApp1
 {
     public partial class airquality
     {
+        public long Id { get; set; }
         [JsonProperty("SITENAME")]
         public string SiteName { get; set; }
         [JsonProperty("COUNTY")]
