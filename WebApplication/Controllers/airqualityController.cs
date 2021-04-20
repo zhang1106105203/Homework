@@ -1,10 +1,12 @@
 ﻿using ConsoleApp1;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApplication.Data;
+using WebApplication.viewmodel;
 
 namespace WebApplication.Controllers
 {
@@ -17,16 +19,38 @@ namespace WebApplication.Controllers
         {
             this.applicationDbContext = applicationDbContext;
         }
+        [HttpGet]
         public IActionResult Index()
         {
-            var service = new ConsoleApp1.jsonservice();
-            var filePath = share.FilePath.GetFullPath("空氣品質.json");
-            List<airquality> data = service.LoadFormFile(filePath)
+            //var service = new ConsoleApp1.jsonservice();
+            //var filePath = share.FilePath.GetFullPath("空氣品質.json");
+            //List<airquality> data = service.LoadFormFile(filePath);
             //List<airquality> data = applicationDbContext.airqualities.ToList();
-            .Where(x => x.County.Contains("新北"))
-            .ToList();
+            //.Where(x => x.County.Contains("新北"))
+            //.ToList();
             //return Json(data);
-            return View(data);
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Search(AirqualityPearchParams searchParams)
+        {
+            /*var service = new ConsoleApp1.jsonservice();
+            var filePath = share.FilePath.GetFullPath("空氣品質.json");
+            var query = service.LoadFormFile(filePath).AsQueryable();*/
+            var query = applicationDbContext.airqualities.AsQueryable();
+            if (!string.IsNullOrEmpty(searchParams.Order))
+            {
+                query = query.Where(x => x.SiteName.Contains(searchParams.Keyword));
+            }
+            //.Where(x => x.SiteName.Contains(searchParams.Keyword));
+            query = query.OrderByDescending(x => x.Id);
+            //if (!string.IsNullOrEmpty(searchParams.Order))
+            //{
+            //    query = query.OrderBy(x => EF.Property<string>(x, searchParams.Order));
+            //}
+            query.Skip((searchParams.PageIndex) * 30).Take(30);
+
+            return View("Index",query.ToList());
         }
 
         [HttpGet]
@@ -49,6 +73,23 @@ namespace WebApplication.Controllers
             applicationDbContext.SaveChanges();
 
             return Content("OK");
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(ConsoleApp1.airquality create)
+        {
+            //var count = applicationDbContext.airqualities.Max(x => x.Id);
+
+            //create.Id = count + 1;
+            create.Id = 0;            
+            
+            applicationDbContext.airqualities.Add(create);
+            applicationDbContext.SaveChanges();
+            return RedirectToAction("Index");            
         }
     }
 }

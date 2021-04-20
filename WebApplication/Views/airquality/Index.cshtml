@@ -3,9 +3,20 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 <h1>airquality list</h1>
+
+<a href="/airquality/Create">新增</a>
+
+<form action="/airquality/Search" method="post">
+    <label>Keyword:</label><br>
+    <input type="text" id="Keyword" name="Keyword" placeholder="請輸入您要查詢的地區">
+
+    <input type="submit" value="查詢"/>
+</form>
+
 <table>
     <thead>
         <tr>
+            <th>Id</th>
             <th>SiteName</th>
             <th>County</th>
             <th>AQI</th>
@@ -19,6 +30,7 @@
             foreach (var item in Model)
             {
         <tr>
+            <td>@item.Id</td>
             <td>@item.County</td>
             <td>@item.SiteName</td>
             <td>@item.AQI</td>
