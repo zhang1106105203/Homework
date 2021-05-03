@@ -20,5 +20,7 @@ namespace ConsoleApp1
         public string Pollutant { get; set; }
         [JsonProperty("STATUS")]
         public string Status { get; set; }
+        public object Image1 { get; set; }
+        public object Image2 { get; set; }
     }
 }

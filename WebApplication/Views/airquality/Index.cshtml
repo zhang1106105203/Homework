@@ -8,8 +8,10 @@
 
 <form action="/airquality/Search" method="post">
     <label>Keyword:</label><br>
-    <input type="text" id="Keyword" name="Keyword" placeholder="請輸入您要查詢的地區">
-
+    <input type="text" 
+           id="Keyword" name="Keyword" 
+           value="@ViewBag.SearchParams.Keyword"
+           placeholder="請輸入您要查詢的地區">
     <input type="submit" value="查詢"/>
 </form>
 
@@ -36,6 +38,16 @@
             <td>@item.AQI</td>
             <td>@item.Status</td>
             <td>@item.Pollutant</td>
+            <td>
+                <form asp-action="Edit">
+                    <input name="id" />
+
+                    <input type="submit" value="Send" />
+                </form>
+                    <a href="/aiquality/Edit/@item.Id">Edit</a>
+            </td>
+
+            <td><a id="delBtn" href="/airquality/Delete/@item.Id">Delete</a></td>
 
         </tr>
             }
@@ -46,5 +58,15 @@
     <tfoot></tfoot>
 
 </table>
-@{
+@section scripts
+{
+    <script type="text/javascript">
+        $(function (x) {
+            $('delBtn').on('click', (e) => {
+                return confirm('are you sure?')
+            });
+            //      alert('OK')
+        });
+    </script>
 }
+@{ }

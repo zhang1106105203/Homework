@@ -21,34 +21,20 @@ namespace WebApplication.Controllers
         }
         [HttpGet]
         public IActionResult Index()
-        {
-            //var service = new ConsoleApp1.jsonservice();
-            //var filePath = share.FilePath.GetFullPath("空氣品質.json");
-            //List<airquality> data = service.LoadFormFile(filePath);
-            //List<airquality> data = applicationDbContext.airqualities.ToList();
-            //.Where(x => x.County.Contains("新北"))
-            //.ToList();
-            //return Json(data);
-            return View();
+        {            
+            return Search(new AirqualityPearchParams());
         }
         [HttpPost]
         public IActionResult Search(AirqualityPearchParams searchParams)
-        {
-            /*var service = new ConsoleApp1.jsonservice();
-            var filePath = share.FilePath.GetFullPath("空氣品質.json");
-            var query = service.LoadFormFile(filePath).AsQueryable();*/
+        {            
             var query = applicationDbContext.airqualities.AsQueryable();
             if (!string.IsNullOrEmpty(searchParams.Order))
             {
                 query = query.Where(x => x.SiteName.Contains(searchParams.Keyword));
             }
-            //.Where(x => x.SiteName.Contains(searchParams.Keyword));
             query = query.OrderByDescending(x => x.Id);
-            //if (!string.IsNullOrEmpty(searchParams.Order))
-            //{
-            //    query = query.OrderBy(x => EF.Property<string>(x, searchParams.Order));
-            //}
             query.Skip((searchParams.PageIndex) * 30).Take(30);
+            ViewBag.SearchParams = searchParams;
 
             return View("Index",query.ToList());
         }
@@ -90,6 +76,28 @@ namespace WebApplication.Controllers
             applicationDbContext.airqualities.Add(create);
             applicationDbContext.SaveChanges();
             return RedirectToAction("Index");            
+        }
+        [HttpGet]
+        public IActionResult Edit(long id)
+        {
+            var model = applicationDbContext.airqualities.Find(id);
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult Edit(ConsoleApp1.airquality edit)
+        {
+            applicationDbContext.Entry(edit).State = EntityState.Modified;                     
+            applicationDbContext.Update(edit);
+            applicationDbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        [HttpGet]
+        public IActionResult Delete(long id)
+        {
+            var model = applicationDbContext.airqualities.Find(id);
+            applicationDbContext.airqualities.Remove(model);
+            applicationDbContext.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
